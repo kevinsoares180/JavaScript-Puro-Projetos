@@ -23,7 +23,7 @@ mediaDoAluno(marcelo);
 //verficação se o aluno passou de ano, Média requirida: 6
 function passouDeAno(aluno)
 {
-    if(aluno.media > 6)
+    if(aluno.media >= 6)
     {
         console.log(aluno.nome + " passou de ano com a média de " + aluno.media);
     }
